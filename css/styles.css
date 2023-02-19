@@ -1,0 +1,14 @@
+.box {
+    width: 200px;
+    padding: 10px;
+    border: 2px;
+    border-radius: 3px;
+    margin: 0;
+    background-color: red;
+  }
+
+  .box-total{
+    padding: 30px;
+    margin: 30px;
+
+  }
