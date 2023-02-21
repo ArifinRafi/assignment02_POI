@@ -28,9 +28,21 @@
     background-color: blue;
   }
 
-  .box:hover{
+  .red:hover{
    background-color: rgb(255, 73, 73);
   }
+
+  .yellow:hover{
+    background-color: rgb(219, 215, 90);
+   }
+
+   .green:hover{
+    background-color: rgb(66, 183, 62);
+   }
+
+   .blue:hover{
+    background-color: rgb(85, 125, 225);
+   }
 
   .text-box {
     width: 200px;
