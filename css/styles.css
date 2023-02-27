@@ -67,3 +67,18 @@
   body{
     background-color: rgb(225, 225, 225);
   }
+
+  .third-box{
+    height: 100px;
+    width: 90%;
+    border: 20px rgb(75, 204, 75);
+    
+  }
+
+  .second-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    
+  }
