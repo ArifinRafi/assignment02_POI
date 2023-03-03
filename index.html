@@ -29,25 +29,31 @@
 
 
 <!-- Assignment 1.2 -->
-<div class="third-box">
-    <div class="second-container">
-        <input type="text">
+<div class="second-container">
+    <label for="weight">Let's count the weight</label>
+    <input type="text" placeholder="Type a number" id="input" class="">
+
+    <div class="drop">
+        <select name="type" id="unit">
+        
+            <option value="kg">Kg</option>
+            <option value="lb">lb</option>
     
-    <select name="value-in" id="">
-        <option value="">lb to kg</option>
-        <option value="">kg to lb</option>
-    </select>
-    
-    <button>go</button>
-    
+        </select>
+
     </div>
+    
+    <button onclick="convert()">Go</button>
+
+    <span id="output"></span>
+
 </div>
+
+
+
 
 <!-- part1.3 -->
-<div>
-   <input type="text" name="input" id=""> 
 
-</div>
 
 
 

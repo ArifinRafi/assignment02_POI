@@ -22,6 +22,11 @@ document.getElementById('red').addEventListener('click', function()
 }
 )
 
+
+
+
+
+
 document.getElementById('yellow').addEventListener('click', function()
 {
     document.getElementById('box').style.background="yellow";
@@ -56,6 +61,20 @@ document.getElementById("blue").addEventListener('click', function() {
     
 })
 
+
+function convert() {
+    const weight = document.getElementById("input").value;
+    const unit = document.getElementById("unit").value;
+    let result;
+
+    if(unit == "kg") {
+        result = weight*2.4 +"kg";
+    }
+    else if (unit == "lb") {
+        result = weight*0.4 + "lb";
+    }
+    document.getElementById("output").innerHTML = result;
+}
 
 
 

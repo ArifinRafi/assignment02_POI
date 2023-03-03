@@ -79,6 +79,10 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    padding-top: 100px;
     
-    
+  }
+
+  .drop{
+    padding: 20px;
   }
