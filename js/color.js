@@ -77,5 +77,16 @@ function convert() {
 }
 
 
+function task3() {
+    var input2 = document.getElementById("input_array").value;
+    var numbers = input2.split(",");
+    console.log(numbers);
+
+    const max = -Infinity;
+    const min = Infinity;
+
+}
+
+
 
 

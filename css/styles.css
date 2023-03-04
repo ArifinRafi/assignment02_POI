@@ -87,4 +87,11 @@
     padding: 20px;
   }
 
+  .third-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+  }
+
   
