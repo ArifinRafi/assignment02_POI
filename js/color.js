@@ -80,10 +80,32 @@ function convert() {
 function task3() {
     var input2 = document.getElementById("input_array").value;
     var numbers = input2.split(",");
-    console.log(numbers);
+    //console.log(numbers);
 
-    const max = -Infinity;
-    const min = Infinity;
+    var max = -Infinity;
+    var min = Infinity;
+    var sum = 0;
+
+    for(var i = 0; i<numbers.length; i++) {
+        number =  parseFloat(numbers[i]);
+
+        sum = sum + number;
+
+        if(number > max) {
+            max = number;
+        }
+
+        if (number < min) {
+            min =  number;
+        }
+        
+    }
+    var avg = sum/numbers.length;
+
+    document.getElementById("sum").innerText = "Sum: "+sum;
+    document.getElementById("avg").innerText = "Average: "+avg;
+    document.getElementById("max").innerText = "Max: "+max;
+    document.getElementById("min").innerText = "Min: "+min;
 
 }
 

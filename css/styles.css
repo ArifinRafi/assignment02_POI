@@ -94,4 +94,11 @@
     padding: 20px;
   }
 
+  .results{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0px;
+  }
+
   
